@@ -39,7 +39,7 @@ CALL sys.ML_TRAIN('ml_data.iris_train', 'class', NULL, @iris_model);
 ```
 select @iris_model;
 
-SELECT model_id, model_handle, train_table_name FROM ML_SCHEMA_**user1**.MODEL_CATALOG;
+SELECT model_id, model_handle, train_table_name FROM ML_SCHEMA_user1.MODEL_CATALOG;
 ```
 
 
